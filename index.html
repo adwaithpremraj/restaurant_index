@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodhut</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&family=Raleway:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid">
+      <nav class="navbar ">
+          <div class="container">
+              <h1>Foodhut</h1>
+              <div class="d-flex justify-content-end">
+                <form class="d-flex " role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+    
+                <button class="btn btn-light cart" type="button" data-bs-toggle="offcanvas" 
+                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">CART</button>
+                
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">CART</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <hr><br>
+                    ADD ITEMS TO CART
+                    <button class="btn btn-dark" type="button"> ADD</button>
+                  </div>
+                </div>
+                <div class="login">
+                  <button class="btn btn-light ms-2 me-3" type="button"> Login</button>
+                </div>
+              </div>
+          </div>
+  
+      </nav>
+  
+  
+      </div>
+      <div class="restaurant_body pb-3 ">
+        <h4 class="restaurant_head">RESTAURANTS</h4>
+        <div class="wrapper">
+            <div class="card" style="width: 18rem;">
+                <img src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">AMMAS HOTEL</h5>
+                  <p class="card-text">Dine with Distinction, Stay with Elegance – Where Culinary Wonders Unfold</p>
+                  <a href="#" class="btn btn-primary">View Menu</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BOMBEY HOTEL</h5>
+                  <p class="card-text">Delight in Every Dish, Revel in Every Stay – Your Culinary Retreat Begins Here.</p>
+                  <a href="#" class="btn btn-primary">View Menu</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">RARAS</h5>
+                  <p class="card-text">Dining Beyond the Ordinary – Where Each Meal is a Culinary Celebration.</p>
+                  <a href="#" class="btn btn-primary">View Menu</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">FEATHERS</h5>
+                  <p class="card-text">Satisfy Your Wanderlust for Flavor – Where Every Meal is a Culinary Journey.".</p>
+                  <a href="#" class="btn btn-primary">View Menu</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PARIS</h5>
+                  <p class="card-text">Dining Beyond the Ordinary – Where Each Meal is a Culinary Celebration.</p>
+                  <a href="#" class="btn btn-primary ">View Menu</a>
+                </div>
+              </div>
+              
+        </div>
+      </div>
+      
+  
+      <div class="menu pt-2 ">
+        <h4 class="menu_heading">FOOD MENU</h4>
+        <div class="wrapper">
+          
+          
+          <div class="card" style="width: 18rem; border-radius: 20px; overflow: hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6E87EfWQ29cB7kBbaiabjRhdIpsV5scu4ul32aP8CDA&s" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Dosa</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;border-radius: 20px; overflow: hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6E87EfWQ29cB7kBbaiabjRhdIpsV5scu4ul32aP8CDA&s" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Biriyani</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;border-radius: 20px; overflow: hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6E87EfWQ29cB7kBbaiabjRhdIpsV5scu4ul32aP8CDA&s" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Porota</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;border-radius: 20px; overflow: hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6E87EfWQ29cB7kBbaiabjRhdIpsV5scu4ul32aP8CDA&s" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Chappathi</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;border-radius: 20px; overflow: hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6E87EfWQ29cB7kBbaiabjRhdIpsV5scu4ul32aP8CDA&s" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Idali</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;border-radius: 20px; overflow: hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6E87EfWQ29cB7kBbaiabjRhdIpsV5scu4ul32aP8CDA&s" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Manthi</p>
+            </div>
+          </div>
+            
+      </div>
+      </div>
+  
+  
+  
+  
+      <footer>
+        <small>
+          Copyright © 2023 Restaurants. All Rights Reserved.
+        </small>
+      </footer>
+  
+      
+  </div>
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+.navbar{
+    background-color: rgb(83, 38, 38);
+}
+.container  h1{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+    /* margin: 20px 20px 20px 20px ; */
+    /* padding: 20px 20px; */
+    display: flex;
+    padding-left: 10px;
+}
+.restaurant_head{
+    color: rgb(83, 38, 38);
+    text-align: center;
+}
+.menu_heading{
+    text-align: center;
+    background-color: rgb(83, 38, 38);
+    color: white;
+    height: 3rem;
+    padding-top: 10px;
+    
+}
+.cart{
+    margin-left: 10px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color:white;
+    background-color: rgb(83, 38, 38);
+    height: 40px;
+    width: 100%;
+}
+.wrapper .card{
+        margin: 3px;
+}
+
+.view-btn{
+    background-color: rgb(83, 38, 38);
+}
+
